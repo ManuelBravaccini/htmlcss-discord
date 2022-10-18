@@ -136,7 +136,6 @@ footer{    /*Footer*/
 }
 
 .footer-top{
-    background-color: cadetblue;
     height: 400px;
 }
 
@@ -149,7 +148,21 @@ footer section.footer-top aside{
 footer section.footer-top nav{
     width: 70%;
     height: 100%;
-    background-color: #20b2aa;
+    justify-content: space-evenly;
+}
+
+ul:before{
+    content:attr(aria-label);
+    color: #8ea1e1;
+    font-weight:bold;
+    padding-bottom: 0.5rem;
+}
+
+nav li{
+    color: white;
+    list-style-type: none;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
 }
 
 footer hr{
