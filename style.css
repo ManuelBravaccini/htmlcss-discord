@@ -72,7 +72,7 @@ button#black{
 
 .container{     /*Main*/
     width: 62.5%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .content-text{
@@ -142,7 +142,6 @@ footer{    /*Footer*/
 footer section.footer-top aside{
     width: 30%;
     height: 100%;
-    background-color: #f08080;
 }
 
 footer section.footer-top nav{
@@ -165,8 +164,28 @@ nav li{
     font-size: 0.8rem;
 }
 
+#italy-flag{
+    width: 20px;
+}
+
+aside>h3{
+    color: #8ea1e1;
+    font-size: 3rem;
+}
+
+aside>p{
+    display: inline-block;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+img.icons{
+    filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(148deg) brightness(90%) contrast(115%);
+}
+
 footer hr{
-    margin: 2rem 0;
+    border: 1px solid #8ea1e1;
+    opacity: 25%;
 }
 
 footer section.footer-bottom{
@@ -185,3 +204,6 @@ button#register{
     border: 1px solid #8ea1e1;
     color: white;
 }
+
+
+
