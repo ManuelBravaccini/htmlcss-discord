@@ -70,7 +70,7 @@ button#black{
     color: white;
 }
 
-.container{
+.container{     /*Main*/
     width: 62.5%;
     margin: 50px auto;
 }
@@ -79,7 +79,19 @@ button#black{
     padding-left: 5rem;
 }
 
+.content-text-left{
+    padding-right: 5rem;
+}
+
 .content-text>h2{
+    font-size: 4rem;
+}
+
+.content-text-left>h2{
+    font-size: 4rem;
+}
+
+.content-text-bottom>h2{
     font-size: 4rem;
 }
 
@@ -88,15 +100,25 @@ button#black{
     padding-top: 1.5rem;
 }
 
+.content-text-left>p{
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+.content-text-bottom>p{
+    font-size: 1.2rem;
+    padding-top: 1.5rem; 
+}
+
 #main-foot{
     flex-direction: column;
     text-align: center;
 }
 
-section>h3{
+div>h3{
     background-image: url(img/stars.svg);
     background-size: cover;
-    margin: 1rem 20rem;
+    margin: 0 20rem 5rem;
     padding: 1rem;
 }
 
@@ -104,7 +126,7 @@ button#purple{
     background-color: #8ea1e1;
     color: white;
     border: 1px solid #8ea1e1;
-    margin: 0 30rem;
+    margin: 0 20rem;
     font-size: 1.2rem;
 }
 
