@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height: 39rem;
+    padding: 1rem 20rem;
+}
+
+header>.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.nav-links>a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+.introduction>h1{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.introduction>p{
+    font-size: 1.5rem;
+    padding: 0 15rem;
+}
+
+div.introduction{
+    color: white;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+button{
+    border-radius: 2rem;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.8rem 1.5rem;
+}
+
+button#white{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+}
+
+button#black{
+    background-color: #23272a;
+    border: 1px solid #23272a;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.container{
+    width: 62.5%;
+    margin: 50px auto;
+}
+
+.content-text{
+    padding-left: 5rem;
+}
+
+.content-text>h2{
+    font-size: 4rem;
+}
+
+.content-text>p{
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+#main-foot{
+    flex-direction: column;
+    text-align: center;
+}
+
+section>h3{
+    background-image: url(img/stars.svg);
+    background-size: cover;
+    margin: 1rem 20rem;
+    padding: 1rem;
+}
+
+button#purple{
+    background-color: #8ea1e1;
+    color: white;
+    border: 1px solid #8ea1e1;
+    margin: 0 30rem;
+    font-size: 1.2rem;
+}
+
+footer{    /*Footer*/ 
+    background-color: #23272a;
+    padding: 2rem;
+}
+
+.footer-top{
+    background-color: cadetblue;
+    height: 400px;
+}
+
+footer section.footer-top aside{
+    width: 30%;
+    height: 100%;
+    background-color: #f08080;
+}
+
+footer section.footer-top nav{
+    width: 70%;
+    height: 100%;
+    background-color: #20b2aa;
+}
+
+footer hr{
+    margin: 2rem 0;
+}
+
+footer section.footer-bottom{
+    height: 100px;
+    background-color: #7fffd4;
+    justify-content: space-between;
+}
+
+footer .footer-logo,
+footer .footer-button{
+    background-color: rgb(246, 136, 154);
+    padding: .5rem;
+    font-size: 1.25rem;
+}
